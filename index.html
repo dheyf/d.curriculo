@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Dhennyffe Graziele de Souza Silva</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="currículo">
+        <aside class="lateral">
+            <img class="foto" src="imagem.img.jpg" alt="foto_de_perfil">
+            <h2>Contato</h2>
+            <p>Email: dhysilv4@gmail.com</p>
+            <p>Telefone: (62) 9270-0592</p>
+            <p id="cidade">Cidade: Anápolis - GO</p>
+            <h2 id="nome">Seu Nome</h2>
+            <button id="editar">Editar</button>
+            <button id="sair">Sair</button>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>Linguagens de Programação</li>
+                <li>Trabalho em equipe</li>
+                <li>Banco de Dados</li>
+            </ul>
+
+            <h2>Idiomas</h2>
+            <p>Português: Nativo</p>
+            <p>Inglês: Intermediário</p>
+        </aside>
+
+        <div class="conteudo">
+            <header class="cabeçalho">
+                <h1 class="nome">Dhennyffe Graziele de Souza Silva</h1>
+                <p class="cargo">Estudante de Tecnologia | Desenvolvedor de Sistemas</p>
+            </header>
+
+            <section class="secao">
+                <h2>Objetivo profissional</h2>
+                <p> </p>
+            </section>
+
+            <section class="secao">
+                <h2>Formação acadêmica</h2>
+                <div class="item">
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <div class="data">Ensino Médio Técnico (2°anos)</div>
+                </div>
+            </section>
+
+            <section class="secao">
+                <h2>Experiência profissional</h2>
+                <div class="item">
+                    <h3>Área Administrativa</h3>
+                    <p></p>
+                    <div class="data">Período: 2 anos</div>
+                </div>
+            </section>
+        </div>
+
+        <div class="formulario" id="areaFormulario"  > 
+            <h2>Editar Perfil</h2>
+            <form id="formPerfil">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" required>
+
+                <label for="descricao">Descrição:</label>
+                <input type="descricao"></textarea>
+
+                <button type="submit">Salvar Perfil</button>
+
+                <button type="button" id="cancelar">
+                    Cancelar
+                </button>
+
+            </form>
+        </div>
+
+       
+        <script src="script.js" defer></script>
+
+
+
+</body>
+</html>

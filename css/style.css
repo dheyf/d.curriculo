@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edf2;
+    color: #fc9c65;
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+.currículo {
+    max-width: 850px;
+    margin: 0 auto;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.lateral {
+    background-color: #fc9c65;
+    color: #fff;
+    padding: 30px 22px;
+}
+
+.foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 25px;
+    border: 4px solid #fff;
+}
+
+.lateral h2 {
+    font-size: 18px;
+    margin: 25px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #fc9c65;
+}
+
+.lateral p,
+.lateral li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    overflow-wrap: anywhere;
+}
+
+.lateral ul {
+    list-style: none;
+}
+
+.conteudo {
+    padding: 20px 20px;
+}
+
+.nome {
+    color: #fc9c65;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.cargo {
+    color: #fc9c65;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.secao {
+    margin-bottom: 25px;
+}
+
+.secao h2 {
+    color: #fc9c65;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #fc9c65;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.secao p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.item {
+    margin-bottom: 18px;
+}
+
+.item h3 {
+    font-size: 16px;
+    color: #222;
+}
+
+.item .data {
+    color: #fc9c65;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 3px 0 6px;
+}
+
+.item ul {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.formulario { width: 450px; max-width: 100%; padding: 30px; background-color: white ; border-radius: 17px;
+}
+
+.formulario h2{text-align: center; margin-top: 15px; margin-bottom: 22px;}
+
+.formulario label{ display: block; margin-top: 12px; margin-bottom: 6px;}
+
+.formulario input, .formulario textarea{
+    display: block; width: 100%; padding: 11px;
+
+    border: 1px solid #fc9c65; border-radius: 6px;
+
+    font-family: Arial,sans-serif; font-size: 15px;
+}
+.formulario textarea{ min-height: 90px; resize: vertical;}
