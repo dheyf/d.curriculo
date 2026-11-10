@@ -2,7 +2,13 @@ const nome = document.querySelector("#nome");
 const botaoEditar = document.querySelector("#editar");
 const botaoSair = document.querySelector("#sair");
 const cidadeElememto = document.querySelector("#cidade");
+const botaoCancelar = document.querySelector("#cancelar");
 
+const areaFormulario = document.querySelector("#areaformulario");
+const formulario = document.querySelector("formPerfil")
+
+const campoNome = document.querySelector("nome");
+const campoNome = document.querySelector("nome");
 
 botaoSair.addEventListener("click", function() {
     alert("Botão clicado!");
@@ -28,3 +34,4 @@ botaoSair.addEventListener("click", function() {
      }
     }
 });
+

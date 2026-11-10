@@ -1,9 +1,15 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e9edf2;
-    color: #fc9c65;
-    line-height: 1.6;
-    padding: 30px 15px;
+    margin: 0;
+    padding: 40px;
+    min-height: 100vh;
+    font-family: Arial,sans-serif;
+    background: linear-gradient(120deg, #feceb3, #ffaf8a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    
 }
 
 .currículo {
@@ -131,3 +137,29 @@ a:hover {
     font-family: Arial,sans-serif; font-size: 15px;
 }
 .formulario textarea{ min-height: 90px; resize: vertical;}
+
+.formulario button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.formulario input:focus,
+.formulario textarea:focus{
+    outline: 2px solid #fc9c65;
+    outline-offset: 1px;
+}
+
+[hidden] {
+    display: none !important;
+}
+.perfil {
+    width: 515px;
+    max-width: 100%;
+    padding: 35px;
+
+    background-color: #fff;
+    border-radius:  17px;
+
+    box-shadow: 0 5px 15px rgba(0, 0,0, 0.15);
+    text-align: center;
+}
